@@ -1,9 +1,8 @@
 const algolia = require('algoliasearch');
-const config = require('../config/config');
 
 const client = algolia(
-  config.search_app_id, 
-  config.search_api_key
+  process.env.SEARCH_APP_ID, 
+  process.env.SEARCH_API_KEY
 );
 
 const index = client.initIndex('dev_menus');

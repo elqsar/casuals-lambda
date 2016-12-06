@@ -4,6 +4,9 @@
   "memory": 128,
   "timeout": 10,
   "role": "arn:aws:iam::930140827954:role/demo-lambda_lambda_function",
-  "environment": {},
+  "environment": {
+    "SEARCH_APP_ID": "F8PUE387G4",
+    "SEARCH_API_KEY": "f0d9aa4b35240de9325f1c648b5c2fd1"
+  },
   "nameTemplate": "casuals"
 }
