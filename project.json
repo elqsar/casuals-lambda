@@ -1,0 +1,9 @@
+{
+  "name": "casuals",
+  "description": "Casuals",
+  "memory": 128,
+  "timeout": 10,
+  "role": "arn:aws:iam::930140827954:role/demo-lambda_lambda_function",
+  "environment": {},
+  "nameTemplate": "casuals"
+}
