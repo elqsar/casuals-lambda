@@ -7,7 +7,7 @@ const client = algolia(
 
 const index = client.initIndex('dev_menus');
 
-const searchByName = function(query) {
+const searchByName = (query) => {
   console.log('Searching');
   if(query) {
     return new Promise((resolve, reject) => {
