@@ -1,4 +1,0 @@
-- type: serial
-  steps:
-    service: app
-    command: deploy.sh
