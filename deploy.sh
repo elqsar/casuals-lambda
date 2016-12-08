@@ -1,5 +1,14 @@
 #!/bin/bash -e
 
-docker build . -t apex-lambda-deployer
+curl https://raw.githubusercontent.com/apex/apex/master/install.sh | sh
 
-docker run apex-lambda-deployer
+cd src/function/casuals
+
+npm i
+
+cd ~/src
+
+apex deploy 
+
+
+
