@@ -1,0 +1,4 @@
+app:
+  build:
+    image: apex-lambda-deployer
+    dockerfile_path: Dockerfile
